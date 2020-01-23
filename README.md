@@ -1,11 +1,3 @@
-# Play
-
-<a href="https://play.google.com/store/apps/details?id=github.tornaco.xposedmoduletest"><img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="48"></a>
-
-# TRAVIS
-
-[![Build Status](https://travis-ci.org/Tornaco/XAppGuard.svg?branch=master)](https://travis-ci.org/Tornaco/XAppGuard)
-
 # 介绍
 
 ## 1. 目的
@@ -45,17 +37,17 @@
 系统服务Hook与Binder服务注入。
 
 核心服务：
-https://github.com/Tornaco/X-APM/blob/master/app/src/main/java/github/tornaco/xposedmoduletest/xposed/service/XAshmanServiceImpl.java
-https://github.com/Tornaco/X-APM/blob/master/app/src/main/java/github/tornaco/xposedmoduletest/xposed/service/XAppGuardServiceImpl.java
+https://github.com/SheepCHN/X-APM/blob/master/app/src/main/java/github/tornaco/xposedmoduletest/xposed/service/XAshmanServiceImpl.java
+https://github.com/SheepCHN/X-APM/blob/master/app/src/main/java/github/tornaco/xposedmoduletest/xposed/service/XAppGuardServiceImpl.java
 
 Xposed模块代理：
-https://github.com/Tornaco/X-APM/blob/master/app/src/main/java/github/tornaco/xposedmoduletest/xposed/XModuleDelegate.java
+https://github.com/SheepCHN/X-APM/blob/master/app/src/main/java/github/tornaco/xposedmoduletest/xposed/XModuleDelegate.java
 
 ## 4. 编译
 依赖hiddenapi，Xposed-Framework。
 
 ## 4.1 自选编译
-https://github.com/Tornaco/X-APM/tree/master/build_var_controls
+https://github.com/SheepCHN/X-APM/tree/master/build_var_controls
 
 ## 5. 测试
 5.1 [查看最新测试报告](TestResults-XAppGuardManagerTest.html)
